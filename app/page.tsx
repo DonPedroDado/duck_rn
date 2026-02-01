@@ -47,6 +47,17 @@ export default function DashboardPage() {
           <MotionSection />
           <MetaSection />
         </div>
+
+        <footer className="mt-16 pb-8 text-center">
+          <a
+            href="https://ducksoft.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-[#00ff41]/80 hover:text-[#00ff41] underline underline-offset-2 transition-colors"
+          >
+            Produced by Ducksoft
+          </a>
+        </footer>
       </div>
     </main>
   );
